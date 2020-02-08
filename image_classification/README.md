@@ -1,12 +1,9 @@
 # Image Classification
 
-Use Tensorflow Lite + OpenCV to do object detection, classification, and Pose detection.
+Use Tensorflow (Lite) + OpenCV to do image classification.
 
-## Download the Models
+## Download the Model
 
-...
+The tested model can be downloaded from:
 
-
-## Test run
-
-...
+https://storage.googleapis.com/download.tensorflow.org/models/tflite/mobilenet_v1_1.0_224_quant_and_labels.zip

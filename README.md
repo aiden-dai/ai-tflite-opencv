@@ -1,8 +1,8 @@
 # ai-tflite-opencv
-Use Tensorflow Lite + OpenCV to do object detection, classification, and Pose detection.
+This repo contains codes that use Tensorflow (or Tensorflow Lite) + OpenCV to do object detection, classification, and Pose detection.
 
 
-## pre-requisite
+## Pre-requisite
 
 - Installed Tensorflow (or Tensorflow Lite)
 - Installed OpenCV
@@ -10,10 +10,7 @@ Use Tensorflow Lite + OpenCV to do object detection, classification, and Pose de
 
 ## Download the Models
 
-You will need to download the models in order to run the code.
-
-To be updated..
-
+The .tflite models are not included, you will need to download the models before you run the code.
 
 ## Test Platform
 
@@ -23,11 +20,13 @@ The codes are tested successfully in below platform.
 
 Tensorflow 2.1 + OpenCV 4.2
 
-... Test screenshot ...
+- ### Raspberry PI 4 (4G Ram) - Raspbian Buster
+
+Tensorflow Lite 2.1 + OpenCV 4.1
 
 
-- ### Raspberry PI 4 (4G Ram)
+## Example Run
 
-Tensorflow Lite 2.1 + OpenCV 3.6
+Image Classification with camera running on Raspberry PI 4:
 
-... Test screenshot ...
+<img src="test.PNG" width='50%'>
